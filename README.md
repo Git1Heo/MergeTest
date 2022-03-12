@@ -1,10 +1,7 @@
-1. 프로젝트 이름
-    1. BoardProject
-2. 기본패키지
-    1. com.icia.board
+- branch 테스트
 3. dependency
     1. gradle project
-    2. Spring web, lombok, Thymeleaf, Validation, Spring Data JPA, Mysql Driver
+    2. Spring web, lombok, Thymeleaf, Validation, Spring Data JPA, Mysql Driver ㄹㅁㅇㄴㄹ
 4. 서버포트
     1. 8093
 5. 기본기능
@@ -14,9 +11,9 @@
     1. 글쓰기 페이지(/board/save), 목록페이지(/board/) 요청 링크 있음.
 7. BoardController
     1. 글쓰기 페이지 요청이 오면 글쓰기 페이지 출력
-    2. 글쓰기페이지 위치
+    2. 글쓰기페이지 위치 ㅁㄴㅇㄹ
         1. templates/board/save.html
-8. save.html
+ㄹㄹ
     1. 글쓰기 항목
         1. 작성자, 비밀번호, 제목, 내용
     2. 글쓰기 한 내용은 BoardSaveDTO에 담아서 컨트롤러로 전송됨.
@@ -32,7 +29,7 @@
 # 20220117
 
 ## 엔티티 설계
-
+ㄹㄹ
 1. MemberEntity
     1. id(long), email, password, name
 2. 회원 : 게시글 = 1 :N 관계
